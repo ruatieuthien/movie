@@ -1,0 +1,90 @@
+.app{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+
+}
+/* body{
+background-image: url('https: //i.hurimg.com/i/hdn/75/0x0/5efd9b977152d8036c470a49.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+.head{
+    background-color: black;
+    height: 80px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+.content{
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+#contentSelect{
+    width: 120px;
+    height: 40px;
+}
+.containers{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    
+}
+.containers .cinema-seat {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containers .no-seat {
+    background: green;
+}
+
+.containers .has-seat {
+    background: brown;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(205, 111, 23);
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 500;
+}
+#count{
+    color: rgb(15, 111, 126);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#total{
+    color: rgb(15, 111, 126);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.label{
+    padding-left: 10px;
+    padding-right: 10px;
+}
